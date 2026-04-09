@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleção de vinil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,49 +24,77 @@
         <!--Main-->
         <main class="main">
             <section class="banner">
-                <img src="https://universoretro.com.br/projeto-web-promete-resgatar-historias-de-vinil-saiba-como-participar/" alt="banner">
+                <div class="row justify-content-center">
+                <img class="col-md-5 col-sm-6 "src="imagens/disco-de-vinil.jpg" alt="banner">
             <p>
-                Esse site é um apresenta uma coleção de discos de vinil clássicos, relembrando albuns que marcaram a história da música mundial.
+                Esse site é um apresentação de uma coleção de discos de vinil clássicos, relembrando albuns que marcaram a história da música mundial.
             </p>
+                </div>
             </section>
             <!--Destaques-->
             <section class="destaques">
-                <h2>Curiosidades sobre o vinil</h2>
-                <article class="sub-destaque">
-                <h3>Origem do vinil</h3>
-                <p>
-                    Os discos de vinil começaram a se popularizar na década de 1940 e estiveram no topo do mercado musical por várias décadas.
-                </p>
-                </article>
-                <h2>Destaques</h2>
-                <!--Destaque 1-->
-                <article class="sub-destaque">
-                <h3>Oceano</h3>
-                <img src="https://fastly.picsum.photos/id/453/2048/1365.jpg?hmac=A8uxtdn4Y600Z5b2ngnn9hCXAx8sUnOVzprtDnz6DK8" alt="fotografia">
-                <p>Djavan</p>
-                <p>Clássico da música brasileira lançado em 1989, conhecido por sua melodia marcante e letra romântica.</p>
-                </article>
-                <article class="sub-destaque">
-                <!--Destaque 2-->
-                <h3>Amor e o Poder</h3>
-                <img src="https://fastly.picsum.photos/id/453/2048/1365.jpg?hmac=A8uxtdn4Y600Z5b2ngnn9hCXAx8sUnOVzprtDnz6DK8" alt="fotografia">
-                <p>Rosana</p>
-                <p>Grande sucesso pop dos anos 80 no Brasil, famoso pelo refrão “como uma deusa”.</p>
-                </article>
+                <h2 class="text-center">Curiosidades sobre o vinil</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-sm-8 text-center">
+                            <article class="sub-destaque curiosidade ">
+                                <h3 >Origem do vinil</h3>
+                                <p>
+                                    O disco de vinil, popularizado nos anos 1940, utiliza sulcos físicos para armazenar som analógico e vive um forte ressurgimento hoje. Diferente dos antecessores de goma-laca, o vinil é mais resistente e durável, geralmente tocado a ou rotações por minuto (RPM), oferecendo um som considerado mais quente e autêntico por colecionadores.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                
+                    
+                    <h2 class="row justify-content-center">Destaques</h2>
+                    <!--Destaque 1-->
+                    <div class="row justify-content-center">
+                    <article class=" col-md-3 col-sm-6 sub-destaque">
+                    <h3 class="text-center">Oceano</h3>
+                    <img class="img-fluid "src="imagens/Djavan Oceano.jpg" alt="fotografia">
+                    <p class="text-center">Djavan</p>
+                    <p>Um dos clássicos de um dos maiores cantores de mpb do Brasil, a música faz parte de um álbum muito marcante para a música brasileira.</p>
+                    
+                    </article>
+                <article class=" col-md-3 col-sm-6 sub-destaque">
+                    <!--Destaque 2-->
+                    <h3 class="text-center">O cheiro de Carolina</h3>
+                    <img class="img-fluid"src="imagens/Luiz-gonzaga.jpg" alt="fotografia">
+                    <p class="text-center">Luiz Gonzaga</p>
+                    <p>Um clássico do forró tradicional que celebra o romantismo e a simplicidade da vida nordestina.</p>
+                    </article>
+                    <article class="col-md-3 col-sm-6 sub-destaque">
+                    <h3 class="text-center"> Amor meu Grande amor </h3>
+                    <img class="img-fluid" src="imagens/Angela roro.jpeg" alt="fotografia">
+                    <p class="text-center">Ângela Roro</p>
+                    <p>A canção fala sobre a força do amor e a profundidade dos sentimentos, sendo marcada principalmente pela voz da Ângela que como o nome sugere é um pouco rouca.</p>
+                    </article>
+                    </div>
+                
             </section>
         </main>
                     <!--Dados pessoais-->
             <section class="Dados">
-                <h2>Meus discos</h2>
-                <div class="imagem">
-                    <img class="foto" src="https://fastly.picsum.photos/id/91/3504/2336.jpg?hmac=tK6z7RReLgUlCuf4flDKeg57o6CUAbgklgLsGL0UowU" alt="foto">
                     <!--Formulário-->
-                    <form class = "formulario" name="form_login" action="do_login.html">
-                        Usuário:<input type="text" name="Usuário" value=""><br>
-                        Senha:<input type="password" name="Senha" value=""><br>
-                        <button type="submit"> Entrar </button>
-                    </form>
-                </div>
+                    <h2 class="text-center mb-4"><a href="#" >Meus discos</a></h2>
+                    <div class="row align-items-center imagem">
+                        <div class="col-md-6">
+                            <form class = "formulario " name="form_login" action="do_login.html">
+                                <div class="campo">
+                                    <label >Usuário:</label>
+                                        <input type="text" name="Usuário" value=""><br>
+                                </div>
+                                <div class="campo">
+                                    <label>Senha:</label>
+                                        <input type="password" name="Senha" value=""><br>
+                                <button type="submit"> Entrar </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <img class="img-fluid foto" src="imagens/usuario.jpg" alt="foto">
+                        </div>
+                    </div>
             </section>
         <!--Rodapé-->
         <footer class="footer">

@@ -9,10 +9,10 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Arthur Moraes Braga Araujo
+- Matricula:1025300
+- Proposta de projeto escolhida: Proposta 4- Coleções e itens
+- Breve descrição sobre seu projeto: Um site para facilitar a pesquisa de discos de vinis que se tornou uma raridade nos dias de hoje e que algumas pessoas possuem o interesse por sua raridade e exclusividade, o site é um meio para facilitar que usuários que desejam comprar ou procurar lojas que vendem os discos encontrem o que desejam.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 

@@ -12,6 +12,7 @@ body{
     color:black;
     padding: 20px;
     text-align:center;
+    
 }
 
 .menu ul{
@@ -81,7 +82,7 @@ button{
     background: #222;
     color: white;
     padding: 20px;
-    position:relative;
+    position:absolute;
     width: 100%;
 }
 
@@ -90,10 +91,11 @@ button{
 
 .foto {
     border-radius: 50%;        
-    object-fit: cover;        
+    object-fit: cover; 
+    max-height: 300px;
 }
 .imagem{
-    gap:50px;
+    gap:5px;
     margin-top:20px;
 }
 
@@ -106,6 +108,7 @@ button{
 
 .banner img{
     border-radius:50px;
+    max-height: 400px;
 }
 
 

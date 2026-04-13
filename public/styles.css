@@ -15,19 +15,6 @@ body{
     
 }
 
-.menu ul{
-display: flex;
-justify-content: center;
-margin-top: 10px;
-}
-
-.menu ul li {
-    margin : 0 15px
-}
-
-.menu ul li a {
-    color:black;
-}
 
 .main {
     padding: 20px;
@@ -82,12 +69,9 @@ button{
     background: #222;
     color: white;
     padding: 20px;
-    position:absolute;
+    position:relative;
     width: 100%;
 }
-
-
-
 
 .foto {
     border-radius: 50%;        
@@ -116,3 +100,9 @@ button{
     color:black;
 }
 
+.nav-link{
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
